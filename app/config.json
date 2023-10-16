@@ -1,0 +1,33 @@
+{
+  "PermanentEnvironmentalSettings":{
+    "ADMIN_USERNAME":"",
+    "ADMIN_PASSWORD":"",
+    "ADMIN_EMAIL":""
+  },
+  "Site": {
+    "HTTPS": true,
+    "URN": "example.com",
+    "LOG": "",
+    "REG": "register"
+  },
+  "User": {
+    "META": [
+      "fullname","photo","email","document"
+    ],
+    "ROLES": [
+      27312, 21675, 10764, 32767
+    ]
+  },
+  "View": {
+    "SECTIONS": [1,2,3,4,5,6,7,8]
+  },
+  "Data": {
+    "MAINDB": ["mysql","localhost","dbusername","dbpassword"],
+    "DB1": null,
+    "DB2": null,
+    "DB3": null,
+    "DB4": null,
+    "DEFAULTROLE": ""
+  },
+  "System": {"SHELL": false, "PANELTOROOT":""}
+}
